@@ -77,6 +77,11 @@ function Delete(){
         }
         
     }
+    if (presentNum == '' && pastNum !== '' && Operation == ''){
+        pastNum = pastNum.slice(0, -1);
+        Current.textContent = pastNum;
+
+    }
 }
 
 

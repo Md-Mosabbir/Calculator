@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.calculator-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: aqua;
+    width: 700px;
+    height: 700px;
+    margin: 100px auto 0 auto;
+    
+
+}
+
+.calculator{
+    position: relative;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    width: 262px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1.2rem;
+    background-color: black;
+    width: 100%;
+    height: 190px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.previous-number{
+    background-color: green;
+    width: 100%;
+    height: 35px;
+    text-align: right;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.current-number{
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.operation-container{
+    background-color: red;
+    padding: 5px;
+    height: 330px;
+    margin-top: 10px;
+}
+
+.Buttons-and-side{
+    display: flex;
+    gap: 10px;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons{
+    background-color: aliceblue;
+    width: 170px;
+    height: 231px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.number{
+    width: 50px;
+    height: 50px;
+}
+
+.number.zero{
+    width: 110px;
+    height: 50px;
+    
+
+}
+
+.Decimal{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.operations{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    
+
+
+}
+.operator{
+    width: 50px;
+    height: 50px;
+
+}
+
+.style-number{
+    width: 50px;
+    height: 50px;
+}
+
+
+.special-size{
+    margin-top: 5px;
+    width: 50px;
+    height: 75px;
+
+}
