@@ -155,7 +155,7 @@ function handleNumber(number){
         Current.textContent = presentNum;
     }
     
-    if (presentNum.length <= 15){
+    if (presentNum.length <= 10){
         presentNum += number;
         Current.textContent = presentNum;
         
