@@ -1,6 +1,6 @@
-presentNum = ''
-pastNum = ''
-Operation = ''
+let presentNum = ''
+let pastNum = ''
+let Operation = ''
 
 const Current = document.querySelector('.current-number')
 
